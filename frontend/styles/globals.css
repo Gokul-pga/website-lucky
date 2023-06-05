@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .background{
+    background-image: url(../assests/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    z-index: -1000;
+} */
+main{
+    background-color: #000000d7;
+}
+:root{
+    --heading-font: 30px;
+    --paragrap-font: 16px;
+}
+body{
+    background-image: url("../assests/backgroundimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: "cover";
+}
+
+@media (max-width:850px) {
+    body{
+        background-image: url("../assests/backgroundmob.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
